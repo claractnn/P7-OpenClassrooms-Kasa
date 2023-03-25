@@ -11,9 +11,7 @@ function Header() {
             <nav className='header_nav'>
                 <ul>
                     <li className='header_nav_link'> 
-                        <NavLink>
 
-                        </NavLink>
                     </li>
                 </ul>
                
