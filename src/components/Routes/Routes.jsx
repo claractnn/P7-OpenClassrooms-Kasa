@@ -5,10 +5,10 @@ import Home from '../../pages/Home';
 function AllRoutes() {
     return (
         <BrowserRouter>
-        <Routes>
-        <Route path="/" element={<Home />} />
-        </Routes>
-    </BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 
