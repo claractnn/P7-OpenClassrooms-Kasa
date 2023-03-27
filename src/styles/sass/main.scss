@@ -1,10 +1,9 @@
 @import '../utils/variables';
 @import '../utils/mixins';
 
-@import './components/Gallery';
-
 @import './layout/Header';
 @import './layout/Banner';
 @import './layout/Footer';
 
 @import './pages/Home';
+@import './components/Gallery';

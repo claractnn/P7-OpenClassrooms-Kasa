@@ -1,6 +1,26 @@
-.header_logo_img {
-  width: 200px;
+* {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  margin: 40px 60px;
+  display: flex;
+  justify-content: space-between;
 }
 .header_logo_img {
-  width: 20px;
+  width: 150px;
+}
+.header_nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */

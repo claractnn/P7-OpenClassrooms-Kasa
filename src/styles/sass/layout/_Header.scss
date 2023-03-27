@@ -1,13 +1,19 @@
 @import '../../utils/variables';
 @import '../../utils/mixins';
+@import '../../utils/base';
 
 .header {    
-    @include tablet;
-    &_logo_img {
-        width: 200px;
-    }
     @include desktop;
+    margin: 40px 60px;
+    display: flex;
+    justify-content: space-between;
     &_logo_img {
-        width: 20px;
+        width: 150px;
+    }
+    &_nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
     }
 }
