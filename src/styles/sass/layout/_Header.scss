@@ -1,11 +1,7 @@
-@import 'mixins';
+@import '../../utils/variables';
 
-header {
-    .header_nav_link_active {
-        text-decoration: underline;
-    }
-    .logo {
-        width: 200px;
-        height: auto;
+.header {    
+    &_logo {
+        width: 600px;
     }
 }

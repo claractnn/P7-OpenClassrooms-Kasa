@@ -1,9 +1,10 @@
 import React from 'react';
-import Routes from "./components/Routes/Routes";
+import AllRoutes from "./components/Routes/Routes";
+import "./styles/sass/main.css";
 
 function App() {
   return (
-   <Routes />
+   <AllRoutes />
   );
 }
 
