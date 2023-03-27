@@ -1,7 +1,13 @@
 @import '../../utils/variables';
+@import '../../utils/mixins';
 
 .header {    
-    &_logo {
-        width: 600px;
+    @include tablet;
+    &_logo_img {
+        width: 200px;
+    }
+    @include desktop;
+    &_logo_img {
+        width: 20px;
     }
 }
