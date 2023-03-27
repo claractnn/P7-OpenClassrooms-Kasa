@@ -1,0 +1,11 @@
+@import 'mixins';
+
+header {
+    .header_nav_link_active {
+        text-decoration: underline;
+    }
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+}
