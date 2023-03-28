@@ -3,17 +3,18 @@
 @import '../../utils/base';
 
 .header {    
-    @include desktop;
-    margin: 40px 60px;
-    display: flex;
-    justify-content: space-between;
-    &_logo_img {
-        width: 150px;
-    }
-    &_nav ul {
+    @include desktop{
+        margin: 40px 60px;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 30px;
+        justify-content: space-between;
+        &_logo_img {
+            width: 150px;
+        }
+        &_nav ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+        }
     }
 }

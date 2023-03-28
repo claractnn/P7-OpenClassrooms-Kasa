@@ -10,17 +10,19 @@ a {
   text-decoration: none;
 }
 
-.header {
-  margin: 40px 60px;
-  display: flex;
-  justify-content: space-between;
-}
-.header_logo_img {
-  width: 150px;
-}
-.header_nav ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 30px;
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+  .header {
+    margin: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header_logo_img {
+    width: 150px;
+  }
+  .header_nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
