@@ -16,5 +16,11 @@
             align-items: center;
             gap: 30px;
         }
+        &_nav_link {
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 15px;
+            color: $primary-color;
+        }
     }
 }
