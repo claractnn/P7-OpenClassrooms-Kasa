@@ -113,7 +113,6 @@ a {
 }
 
 .banner {
-  width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +120,8 @@ a {
 .banner_title {
   position: absolute;
   color: #FFF;
-  font-size: 20px;
+  font-size: 45px;
+  font-weight: 500;
   z-index: 1;
 }
 .banner_img {
@@ -129,9 +129,10 @@ a {
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 150px;
+  height: 223px;
   width: 100%;
   border-radius: 25px;
+  filter: brightness(65%);
 }
 
 * {
