@@ -3,24 +3,32 @@
 @import '../../utils/base';
 
 .header {    
+    font-weight: 400;
+    color: $primary-color;
+    text-transform: unset;
+    &_nav_link_active {
+        text-decoration: underline ;
+    }
     @include desktop{
         margin: 40px 60px;
         display: flex;
+        align-items: center;
         justify-content: space-between;
         &_logo_img {
-            width: 150px;
+            width: 180px;
         }
         &_nav ul {
             display: flex;
             flex-direction: row;
-            align-items: center;
-            gap: 30px;
+            gap: 60px;
         }
         &_nav_link {
-            font-family: $font-family;
-            font-weight: 400;
-            font-size: 15px;
-            color: $primary-color;
+            font-size: 20px;
         }
     }
+    @include tablet{
+
+    }
+    
+
 }
