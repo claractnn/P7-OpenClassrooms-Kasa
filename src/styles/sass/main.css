@@ -28,10 +28,7 @@ a {
 .header_nav_link_active {
   text-decoration: underline;
 }
-@media screen and (min-width: 993px) and (max-width: 1500px) {
-  .header {
-    margin: 40px 60px;
-  }
+@media screen and (min-width: 993px) and (max-width: 1600px) {
   .header_nav ul {
     gap: 4rem;
   }
@@ -43,9 +40,6 @@ a {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  .header {
-    margin: 20px 40px;
-  }
   .header_nav ul {
     gap: 2rem;
   }
@@ -59,7 +53,6 @@ a {
 @media screen and (max-width: 768px) {
   .header {
     text-transform: uppercase;
-    margin: 12px 15px;
   }
   .header_nav ul {
     gap: 0.7rem;
@@ -84,4 +77,42 @@ ul {
 
 a {
   color: inherit;
+}
+
+.banner {
+  border: solid 10px red;
+}
+.banner_img {
+  position: relative;
+  border-radius: 25px;
+}
+
+* {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1600px) {
+  .home {
+    margin: 40px 60px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .home {
+    margin: 20px 40px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home {
+    margin: 12px 15px 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
