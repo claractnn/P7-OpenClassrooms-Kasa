@@ -112,10 +112,24 @@ a {
 }
 
 .banner {
-  width: 90%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_title {
+  position: absolute;
+  color: #FFF;
+  font-size: 20px;
+  z-index: 1;
 }
 .banner_img {
   position: relative;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 150px;
+  width: 100%;
   border-radius: 25px;
 }
 
