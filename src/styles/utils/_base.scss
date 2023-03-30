@@ -1,7 +1,7 @@
 * {
     text-decoration: none;
     font-family: $font-family;
-
+    box-sizing: border-box;
 }
 
 ul {
@@ -9,5 +9,5 @@ ul {
 }
 
 a {
-    color: $primary-color;
+    color: inherit;
 }

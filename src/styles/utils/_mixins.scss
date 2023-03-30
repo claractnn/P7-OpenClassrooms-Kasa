@@ -6,13 +6,13 @@
 };
 
 @mixin tablet {
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
+    @media screen and (min-width: 769px) and (max-width: 992px) {
         @content;
     } 
 };
 
 @mixin desktop {
-    @media screen and (min-width: 1025px) and (max-width:1500px) {
+    @media screen and (min-width: 993px) and (max-width:1500px) {
         @content;
     }
 };
