@@ -80,7 +80,7 @@ a {
 }
 
 .banner {
-  border: solid 10px red;
+  width: 90%;
 }
 .banner_img {
   position: relative;
@@ -99,20 +99,4 @@ ul {
 
 a {
   color: inherit;
-}
-
-@media screen and (min-width: 993px) and (max-width: 1600px) {
-  .home {
-    margin: 40px 60px 20px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 992px) {
-  .home {
-    margin: 20px 40px 20px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .home {
-    margin: 12px 15px 20px;
-  }
 }/*# sourceMappingURL=main.css.map */

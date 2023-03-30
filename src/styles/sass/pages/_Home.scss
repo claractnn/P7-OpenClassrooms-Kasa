@@ -2,14 +2,3 @@
 @import '../../utils/mixins';
 @import '../../utils/base';
 
-.home {
-    @include desktop {
-        margin: 40px 60px 20px;
-    }
-    @include tablet {
-        margin: 20px 40px 20px ;
-    }
-    @include mobile {
-        margin: 12px 15px 20px;
-    }
-}
