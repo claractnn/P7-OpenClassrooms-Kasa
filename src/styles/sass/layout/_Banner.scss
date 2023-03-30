@@ -3,6 +3,7 @@
 @import '../../utils/base';
 
 .banner {
+    border: solid 10px red;
     &_img {
         position: relative;
         border-radius: 25px;
