@@ -1,0 +1,13 @@
+@import '../../utils/variables';
+@import '../../utils/mixins';
+@import '../../utils/base';
+
+@include desktop {
+    margin: 40px 60px;
+}
+@include tablet {
+    margin: 20px 40px;
+}
+@include mobile {
+    margin: 12px 15px;
+}
