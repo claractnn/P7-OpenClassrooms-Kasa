@@ -8,7 +8,6 @@
     justify-content: space-between; 
     font-weight: 400;
     color: $primary-color;
-    text-transform: unset;
     &_nav ul {
         display: flex;
         flex-direction: row;
@@ -22,7 +21,7 @@
             gap: 4rem;
         }
         &_logo_img {
-            width: 180px;
+            width: 140vh;
         }
         &_nav_link {
             font-size: 20px;
@@ -34,10 +33,23 @@
             gap: 2rem;
         }  
         &_logo_img {
-            width: 120px;
+            width: 100vh;
         }
         &_nav_link {
             font-size: 16px;
+        }    
+    }
+    @include mobile {
+        text-transform: uppercase;
+        margin: 10px 20px;
+        &_nav ul {
+            gap: 1rem;
+        }  
+        &_logo_img {
+            width: 80vh;
+        }
+        &_nav_link {
+            font-size: 14px;
         }    
     }
 }
