@@ -5,8 +5,18 @@
 }
 
 body {
-    
+
+    @include desktop {
+        margin: 40px 60px;
+    }
+    @include tablet {
+        margin: 20px 40px 20px ;
+    }
+    @include mobile {
+        margin: 12px 15px 20px;
+    }
 }
+
 
 ul {
     list-style-type: none;
