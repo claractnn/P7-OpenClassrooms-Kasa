@@ -70,4 +70,18 @@ a {
   .header_nav_link {
     font-size: 11px;
   }
+}
+
+* {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
 }/*# sourceMappingURL=main.css.map */
