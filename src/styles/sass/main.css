@@ -57,15 +57,17 @@ a {
 @media screen and (max-width: 768px) {
   .header {
     text-transform: uppercase;
-    margin: 10px 20px;
+    margin: 12px 15px;
   }
   .header_nav ul {
-    gap: 1rem;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    gap: 0.7rem;
   }
   .header_logo_img {
-    width: 80vh;
+    width: 110px;
   }
   .header_nav_link {
-    font-size: 14px;
+    font-size: 11px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -41,15 +41,16 @@
     }
     @include mobile {
         text-transform: uppercase;
-        margin: 10px 20px;
+        margin: 12px 15px;
         &_nav ul {
-            gap: 1rem;
+            padding-inline-start: 0;
+            gap: 0.7rem;
         }  
         &_logo_img {
-            width: 80vh;
+            width: 110px;
         }
         &_nav_link {
-            font-size: 14px;
+            font-size: 11px;
         }    
     }
 }
