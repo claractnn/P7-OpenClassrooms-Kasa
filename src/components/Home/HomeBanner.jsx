@@ -5,8 +5,8 @@ import Banner from '../Layout/Banner';
 function HomeBanner() {
     return (
         <Banner 
-        title='Chez vous, partout et ailleurs'
-        src={imgBanner}
+            title='Chez vous, partout et ailleurs'
+            src={imgBanner}
         />
     )
 }
