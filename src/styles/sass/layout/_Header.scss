@@ -11,6 +11,7 @@
     &_nav ul {
         display: flex;
         flex-direction: row;
+        padding-inline-start: 0;
     }
     &_nav_link_active {
         text-decoration: underline ;
@@ -21,7 +22,7 @@
             gap: 4rem;
         }
         &_logo_img {
-            width: 140vh;
+            width: 170px;
         }
         &_nav_link {
             font-size: 20px;
@@ -33,7 +34,7 @@
             gap: 2rem;
         }  
         &_logo_img {
-            width: 100vh;
+            width: 130px;
         }
         &_nav_link {
             font-size: 16px;
@@ -43,7 +44,6 @@
         text-transform: uppercase;
         margin: 12px 15px;
         &_nav ul {
-            padding-inline-start: 0;
             gap: 0.7rem;
         }  
         &_logo_img {
