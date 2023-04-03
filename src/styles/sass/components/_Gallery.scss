@@ -9,6 +9,14 @@
     padding: 45px 45px 0;
     border-radius: 15px;
     @include mobile {
+        margin-top: 20px;
+        background-color: inherit;
+        padding: 0;
+        flex-direction: column;    
+        gap: 20px;
+    }
+    @include tablet {
+        margin-top: 20px;
         background-color: inherit;
         padding: 0;
     }
