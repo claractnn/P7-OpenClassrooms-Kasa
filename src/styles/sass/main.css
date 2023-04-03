@@ -164,10 +164,28 @@ a {
 
 .accomodation {
   position: relative;
+  overflow: hidden;
 }
 @media screen and (min-width: 993px) and (max-width: 1600px) {
   .accomodation {
     width: 31%;
     height: 200px;
+    margin-bottom: 30px;
+    border-radius: 10px;
   }
+}
+.accomodation_img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.accomodation_title {
+  position: absolute;
+  bottom: 0;
+  padding-left: 1em;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

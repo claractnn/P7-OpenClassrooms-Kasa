@@ -1,7 +1,23 @@
 .accomodation {
     position: relative;
+    overflow: hidden;
     @include desktop {
         width: 31%;
         height: 200px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    &_img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    &_title {
+        position: absolute;
+        bottom: 0;
+        padding-left: 1em;
+        font-weight: 300;
+        font-size: 15px;
+        color: white;
     }
 }
