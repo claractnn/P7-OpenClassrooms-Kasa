@@ -1,0 +1,7 @@
+.accomodation {
+    position: relative;
+    @include desktop {
+        width: 31%;
+        height: 200px;
+    }
+}
