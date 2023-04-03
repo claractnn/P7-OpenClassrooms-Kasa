@@ -223,4 +223,9 @@ a {
   font-size: 15px;
   color: white;
   z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .accomodation_title {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -31,5 +31,8 @@
         font-size: 15px;
         color: white;
         z-index: 1;
+        @include mobile {
+            font-size: 18px;
+        }
     }
 }
