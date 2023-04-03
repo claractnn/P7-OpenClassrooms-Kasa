@@ -14,4 +14,13 @@
         font-size: 15px;
         color: white;
     }
+    @include mobile {
+        gap: 15px;
+        &_img {
+            width: 110px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
 }

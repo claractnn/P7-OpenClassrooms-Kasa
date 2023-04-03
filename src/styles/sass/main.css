@@ -140,6 +140,17 @@ a {
   font-size: 15px;
   color: white;
 }
+@media screen and (max-width: 768px) {
+  .footer {
+    gap: 15px;
+  }
+  .footer_img {
+    width: 110px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}
 
 .gallery {
   margin: 40px 60px;
