@@ -1,12 +1,17 @@
 .accomodation {
     position: relative;
     overflow: hidden;
+    border-radius: 15px;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(251,251,251,0) 40%);
     @include desktop {
-    width: 30%;
-    height: 260px;
-    margin-bottom: 50px;
-    border-radius: 15px;
+        width: 30%;
+        height: 260px;
+        margin-bottom: 50px;
+    }
+    @include tablet {
+        width: 46%;
+        height: 200px;
+        margin-bottom: 45px;
     }
     &_img {
         width: 100%;
