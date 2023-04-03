@@ -42,7 +42,7 @@
         }    
     }
     @include mobile {
-        margin-bottom: 20px;
+        @include margin-mobile;
         text-transform: uppercase;
         &_nav ul {
             gap: 0.7rem;

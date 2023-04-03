@@ -8,18 +8,18 @@
     background-color: $secondary-color;
     padding: 45px 45px 0;
     border-radius: 15px;
-    @include mobile {
-    
-        margin-top: 20px;
-        background-color: inherit;
-        padding: 0;
-        flex-direction: column;    
-        gap: 20px;
-    }
     @include tablet {
         @include margin-tablet;
         background-color: inherit;
         padding: 0;
         gap: 10px;
+    }
+    @include mobile {
+        @include margin-mobile;    
+        margin-top: 20px;
+        background-color: inherit;
+        padding: 0;
+        flex-direction: column;    
+        gap: 20px;
     }
 }

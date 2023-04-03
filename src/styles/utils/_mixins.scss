@@ -25,3 +25,7 @@
 @mixin margin-tablet {
     margin: 20px 40px 40px ;
 }
+
+@mixin margin-mobile {
+    margin: 15px 25px 20px;
+}

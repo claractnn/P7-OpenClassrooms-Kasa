@@ -26,6 +26,7 @@
         @include margin-tablet;
     }
     @include mobile {
+        @include margin-mobile;
         justify-content: start;
         margin-bottom: 10px;
         &_title {
