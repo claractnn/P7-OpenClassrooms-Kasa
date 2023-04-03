@@ -171,7 +171,6 @@ a {
     background-color: inherit;
     padding: 0;
     flex-direction: column;
-    gap: 20px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
