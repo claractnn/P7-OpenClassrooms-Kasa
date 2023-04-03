@@ -1,14 +1,10 @@
-@import '../../utils/variables';
-@import '../../utils/mixins';
-@import '../../utils/base';
-
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
     &_title { 
         position: absolute;
-        color: #FFF;
+        color: white;
         font-size: 45px;
         font-weight: 500;
         z-index: 1;
@@ -21,5 +17,5 @@
         width: 100%;
         border-radius: 25px;
         filter: brightness(65%);
-    }    
+    }   
 }
