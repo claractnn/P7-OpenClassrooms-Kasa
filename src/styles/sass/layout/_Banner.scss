@@ -8,9 +8,13 @@
         font-size: 45px;
         font-weight: 400;
         z-index: 1;
-        width: 75%;
-        @include mobile {
+    }
+    @include mobile {
+        justify-content: start;
+        &_title {
             font-size: 25px;
+            width: 70%;
+            padding-left: 1.2rem;
         }
     }
     &_img {
