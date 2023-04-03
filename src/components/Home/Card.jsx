@@ -6,7 +6,7 @@ function Card(props) {
     return ( 
         <Link className='accomodation' to={`/accomodation/${id}`}>
             <h2 className='accomodation_title'>{title}</h2>
-            <img classname='accomodation_img' src={`${cover}`} alt={`${title}`}/>
+            <img className='accomodation_img' src={`${cover}`} alt={`${title}`}/>
         </Link>
     )
 }
