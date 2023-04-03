@@ -176,7 +176,6 @@ a {
     background-color: inherit;
     padding: 0;
     flex-direction: column;
-    gap: 20px;
   }
 }
 
@@ -189,8 +188,8 @@ a {
 @media screen and (min-width: 993px) and (max-width: 1600px) {
   .accomodation {
     width: 31%;
-    height: 260px;
-    margin-bottom: 50px;
+    height: 290px;
+    margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
