@@ -121,8 +121,14 @@ a {
   position: absolute;
   color: white;
   font-size: 45px;
-  font-weight: 500;
+  font-weight: 400;
   z-index: 1;
+  width: 75%;
+}
+@media screen and (max-width: 768px) {
+  .banner_title {
+    font-size: 25px;
+  }
 }
 .banner_img {
   position: relative;
@@ -133,6 +139,11 @@ a {
   width: 100%;
   border-radius: 25px;
   filter: brightness(65%);
+}
+@media screen and (max-width: 768px) {
+  .banner_img {
+    height: 130px;
+  }
 }
 
 * {
