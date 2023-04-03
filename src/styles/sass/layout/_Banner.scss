@@ -11,6 +11,7 @@
     }
     @include mobile {
         justify-content: start;
+        margin-bottom: 10px;
         &_title {
             font-size: 25px;
             width: 70%;

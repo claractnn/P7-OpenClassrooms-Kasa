@@ -103,6 +103,7 @@ a {
 @media screen and (max-width: 768px) {
   .banner {
     justify-content: start;
+    margin-bottom: 10px;
   }
   .banner_title {
     font-size: 25px;
