@@ -2,7 +2,6 @@
 @import '../../utils/mixins';
 
 .header {   
-    @include margin-desktop;
     display: flex;
     align-items: center;
     justify-content: space-between; 
@@ -16,8 +15,10 @@
     &_nav_link_active {
         text-decoration: underline ;
     }
+}
+.header {
     @include desktop{
-        margin-bottom: 60px;
+        @include margin-desktop;
         &_nav ul {
             gap: 4rem;
         }
@@ -29,7 +30,7 @@
         }
     }
     @include tablet{
-        margin-bottom: 40px;
+        @include margin-tablet;
         &_nav ul {
             gap: 2rem;
         }  

@@ -13,7 +13,6 @@ body {
         margin: 40px 60px;
     }
     @include tablet {
-        margin: 20px 40px 20px ;
     }
     @include mobile {
         margin: 15px 25px 20px;
@@ -28,7 +27,6 @@ a {
 }
 
 .header {
-  margin: 40px 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,9 +42,10 @@ a {
 .header_nav_link_active {
   text-decoration: underline;
 }
+
 @media screen and (min-width: 993px) and (max-width: 1600px) {
   .header {
-    margin-bottom: 60px;
+    margin: 40px 60px;
   }
   .header_nav ul {
     gap: 4rem;
@@ -60,7 +59,7 @@ a {
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .header {
-    margin-bottom: 40px;
+    margin: 20px 40px 40px;
   }
   .header_nav ul {
     gap: 2rem;
@@ -101,17 +100,6 @@ a {
   font-weight: 400;
   z-index: 1;
 }
-@media screen and (max-width: 768px) {
-  .banner {
-    justify-content: start;
-    margin-bottom: 10px;
-  }
-  .banner_title {
-    font-size: 25px;
-    width: 70%;
-    padding-left: 1.2rem;
-  }
-}
 .banner_img {
   position: relative;
   overflow: hidden;
@@ -125,6 +113,22 @@ a {
 @media screen and (max-width: 768px) {
   .banner_img {
     height: 115px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .banner {
+    margin: 20px 40px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    justify-content: start;
+    margin-bottom: 10px;
+  }
+  .banner_title {
+    font-size: 25px;
+    width: 70%;
+    padding-left: 1.2rem;
   }
 }
 
@@ -166,7 +170,7 @@ a {
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .gallery {
-    margin-top: 20px;
+    margin: 20px 40px 40px;
     background-color: inherit;
     padding: 0;
     gap: 10px;
