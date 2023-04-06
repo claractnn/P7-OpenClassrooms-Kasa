@@ -1,0 +1,16 @@
+@import '../../utils/variables';
+
+.scrolling_button {
+    background-color: $primary-color;
+    border-radius: 10px;
+    height: 35px;
+    padding-left: 1em;
+    gap: 30px;
+    h2 {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
