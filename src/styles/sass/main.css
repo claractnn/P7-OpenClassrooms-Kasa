@@ -225,4 +225,19 @@ a {
   .accomodation_title {
     font-size: 18px;
   }
+}
+
+.scrolling_button {
+  background-color: #FF6060;
+  border-radius: 10px;
+  height: 35px;
+  padding-left: 1em;
+  gap: 30px;
+}
+.scrolling_button h2 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
