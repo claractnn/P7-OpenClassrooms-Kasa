@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Layout/Header';
 import AboutBanner from '../components/About/AboutBanner';
+//import Values from '../datas/values.json';
 import Footer from '../components/Layout/Footer';
 //importer toutes les layout de la page home (footer, banner, allcards)
 
