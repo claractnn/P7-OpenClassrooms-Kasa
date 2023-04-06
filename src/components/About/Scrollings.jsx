@@ -16,11 +16,9 @@ function Scrollings(props) {
                         />
                     )
                 }
-
-            )}
+            )};
         </div>
-    )
-
-}
+    );
+};
 
 export default Scrollings;
