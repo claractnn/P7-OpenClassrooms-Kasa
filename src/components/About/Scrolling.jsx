@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { IoIosArrowDown } from 'react-icons';
+import { IoIosArrowDown } from 'react-icons/io';
 
-function Scrolling(title, content) {
+function Scrolling({ title, content} ) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (

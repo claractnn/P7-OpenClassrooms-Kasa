@@ -4,7 +4,7 @@ import Scrolling from '../About/Scrolling';
 function Scrollings(props) {
     return (
         <div className='scrollings'>
-            {props.datas.map((data, index) => {
+            {props.data.map((data, index) => {
                     return (
                         <Scrolling 
                             key={
