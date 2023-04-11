@@ -308,12 +308,11 @@ a {
 
 .scrollings-container {
   display: flex;
+  justify-content: center;
 }
 @media screen and (min-width: 993px) and (max-width: 1600px) {
   .scrollings-container {
     margin: 40px 60px 40px;
-    align-items: center;
-    justify-content: center;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -331,6 +330,17 @@ a {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 80%;
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .scrollings {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .scrollings {
+    width: 100%;
+  }
 }
 
 .scrolling {
