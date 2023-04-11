@@ -1,8 +1,8 @@
 .accomodation {
     position: relative;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(251,251,251,0) 40%);
     overflow: hidden;
     border-radius: 15px;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(251,251,251,0) 40%);
     @include desktop {
         width: 31%;
         height: 290px;
@@ -30,7 +30,6 @@
         font-weight: 300;
         font-size: 15px;
         color: white;
-        z-index: 1;
         @include mobile {
             font-size: 18px;
         }
