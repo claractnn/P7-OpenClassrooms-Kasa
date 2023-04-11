@@ -15,9 +15,11 @@
             font-weight: 700;
             margin: 50px 0 10px;
             @include tablet {
+                @include margin-tablet;
                 font-size: 150px;
             }
             @include mobile {
+                @include margin-mobile;
                 font-size: 100px;
             }
         }

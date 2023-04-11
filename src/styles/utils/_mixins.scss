@@ -19,11 +19,11 @@
 
 
 @mixin margin-desktop {
-    margin: 40px 60px;
+    margin: 40px 60px 40px;
 }
 
 @mixin margin-tablet {
-    margin: 20px 40px 40px ;
+    margin: 20px 40px 40px;
 }
 
 @mixin margin-mobile {
