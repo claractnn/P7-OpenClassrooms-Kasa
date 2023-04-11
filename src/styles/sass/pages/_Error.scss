@@ -13,15 +13,33 @@
         h1 {
             font-size: 250px;
             font-weight: 700;
-            margin: 50px 0 20px;
+            margin: 50px 0 10px;
+            @include tablet {
+                font-size: 150px;
+            }
+            @include mobile {
+                font-size: 100px;
+            }
         }
         p {
             font-size: 30px;
+            text-align: center;
+            margin: 0 2em 0;
+            @include tablet {
+                font-size: 20px;
+            }
+            @include mobile {
+                font-size: 15px;
+            }
         }
     }
     a {
         margin-top: 7em;
         text-decoration: underline;
         font-size: 15px;
+        @include mobile {
+            margin-top: 10em;
+            font-size: 12px;
+        }
     }
 }
