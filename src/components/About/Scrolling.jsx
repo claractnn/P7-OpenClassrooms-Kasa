@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 
-function Scrolling({ title, content} ) {
+function Scrolling({ title, content } ) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -18,7 +18,7 @@ function Scrolling({ title, content} ) {
             </div>
             {isOpen && <div className='scrolling_content'>{content}</div>}
         </section>
-    );
+    )
 };
 
 export default Scrolling;

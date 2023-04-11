@@ -11,12 +11,12 @@ function Scrollings(props) {
                                 `${index}` +
                                 `${Object.values(data)}`.split(" ").join("").slice(10, 20)
                             }
-                            title={<h2>{Object.keys(data)}</h2>}
-                            content={<p>{Object.values(data)}</p>}
+                            title={Object.keys(data)}
+                            content={Object.values(data)}
                         />
                     )
                 }
-            )};
+            )}
         </div>
     );
 };

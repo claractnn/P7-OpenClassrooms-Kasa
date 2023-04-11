@@ -1,16 +1,54 @@
 @import '../../utils/variables';
 
-.scrolling_button {
-    background-color: $primary-color;
-    border-radius: 10px;
-    height: 35px;
-    padding-left: 1em;
+.scrollings {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
-    h2 {
+    width: 70%;
+    margin: 5em auto;
+}
+
+.scrolling {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &_button {
+        z-index: 1;
         display: flex;
         align-items: center;
-        color: white;
+        background-color: $primary-color;
+        border-radius: 8px;
+        height: 35px;
+        padding-left: 1em;
+        justify-content: space-between;
+        h2 {
+            display: flex;
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .arrow-container {
+            margin-right: 20px;
+            .arrow {
+                font-size: 1.7em;
+                color: white;
+                display: flex;
+            }
+        &-up {
+            transform: rotate(180deg);
+        }
+        }
+        
+    }
+    &_content {
         font-size: 20px;
         font-weight: 400;
+        line-height: 30px;
+        margin-top: -0.5em;
+        z-index: 0;
+        padding: 30px 15px 10px;
+        color: $primary-color;
+        background-color: $secondary-color;
     }
 }
+
