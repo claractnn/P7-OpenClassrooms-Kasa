@@ -19,7 +19,7 @@
         border-radius: 15px;
         filter: brightness(65%);
         @include mobile {
-            height: 115px;
+            height: 10rem;
         }
     } 
     @include tablet {
@@ -33,6 +33,11 @@
             font-size: 25px;
             width: 70%;
             padding-left: 1.2rem;
+        }
+    }
+    &_img_about {
+        @include mobile {
+            height: 15rem;
         }
     }
 }
