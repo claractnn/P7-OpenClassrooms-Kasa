@@ -17,9 +17,9 @@ class Carrousel extends Component {
         //Calculer le nouvel index de l'image en fonction de la direction
         let newPictureIndex;
         if (direction === 'previous') {
-        newPictureIndex = pictureIndex === 0 ? pictures.length - 1 : pictureIndex - 1;
+            newPictureIndex = pictureIndex === 0 ? pictures.length - 1 : pictureIndex - 1;
         } else if (direction === 'next') {
-        newPictureIndex = pictureIndex === pictures.length - 1 ? 0 : pictureIndex + 1;
+            newPictureIndex = pictureIndex === pictures.length - 1 ? 0 : pictureIndex + 1;
         }
 
         // Met à jour l'état du composant avec le nouvel index de l'image
