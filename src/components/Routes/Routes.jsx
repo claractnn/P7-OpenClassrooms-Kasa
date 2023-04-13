@@ -12,8 +12,8 @@ function AllRoutes() {
                 <Route path="/" element={<Home />} />
                 <Route exact path="/home" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
-                <Route exact path="/error" element={<Error />} />
-                <Route exact path="/accomodation" element={<Accomodation />} />
+                <Route exact path="*" element={<Error />} />
+                <Route exact path="/accomodation/:id" element={<Accomodation />} />
             </Routes>
         </BrowserRouter>
     )

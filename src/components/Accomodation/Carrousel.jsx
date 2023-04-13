@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { MdArrowForwardIos } from 'react-icons/md';
-import PictureCounter from '';
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+import PictureCounter from './PictureCounter';
 
 class Carrousel extends Component {
     constructor(props) {
@@ -28,6 +28,8 @@ class Carrousel extends Component {
                             : this.setState({ picture: this.state.picture - 1 })
                         }}
                         >
+                        <IoIosArrowBack className='arrow' />
+
                         </div>
                         <div className="carrousel_arrow carrousel_arrow_right"
                         onClick={ () => 
@@ -36,7 +38,7 @@ class Carrousel extends Component {
                                 : this.setState({ picture: this.state.picture + 1 })
                             }
                         >
-                        <MdArrowForwardIos className='arrow' />
+                        <IoIosArrowForward className='arrow' />
 
                         </div>
                     </div>
