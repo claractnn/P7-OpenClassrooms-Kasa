@@ -7,13 +7,13 @@ import accomodations from '../datas/accomodations.json';
 
 function Accomodation() {
     const { id } = useParams();
-    const accomodation = accomodations.find((house) => house.id === id)
+    const accomodation = accomodations.find((item) => item.id === id)
 
     return !accomodation ? (<Navigate to="/error" />) : ( 
         <div>
             <Header />
             <section className='accomodation'>
-                
+
             </section>
             <Carrousel />
             <Footer />
