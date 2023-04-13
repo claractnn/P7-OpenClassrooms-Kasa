@@ -1,9 +1,9 @@
 import React from 'react';
 
-function PictureCounter(pictures, picture) {
+function PictureCounter(pictures, pictureIndex) {
     return (
         <div className='picture_counter'>
-            {picture + 1}/{pictures.length}
+            {pictureIndex + 1}/{pictures.length}
         </div>
     )
 }
