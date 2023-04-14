@@ -15,17 +15,34 @@ function Accomodation() {
         <div>
             <Header />
             <section className='accomodation_container'>
-            <Carousel pictures={accomodation.pictures} title={accomodation.title}/>
-            <Presentation 
-                title={accomodation.title}
-                location={accomodation.location}
-                tags={accomodation.tags}
-                host={accomodation.host}
-                rating={accomodation.rating}
-            />
-            
-            </section>
-            
+                <Carousel 
+                    pictures={accomodation.pictures} 
+                    title={accomodation.title}
+                />
+                <Presentation 
+                    title={accomodation.title}
+                    location={accomodation.location}
+                    tags={accomodation.tags}
+                    host={accomodation.host}
+                    rating={accomodation.rating}
+                />
+                <div className='accomodation_scrollings'>
+                    <Scrolling 
+                        title="Description"
+                        content={<p>{accomodation.description}</p>} 
+                    />
+                    <Scrolling 
+                        title="Équipements"
+                        content={
+                            <ul>
+                                {accomodation.equipments.map((equip, index) => {
+                                    return <li key={`${index}${equip}`}>{equip}</li>;
+                                })}
+                            </ul>
+                        } 
+                    />
+                </div>
+                </section>
             <Footer />
         </div>
     )
