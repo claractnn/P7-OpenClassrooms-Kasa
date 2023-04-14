@@ -9,9 +9,14 @@
         color: $primary-color;
         font-weight: 400;
         font-size: 1rem;
+        text-align: right;
+        width: 9rem;
     }
     img {
         border-radius: 50%;
         height: 50px;
+        @include desktop {
+            height: 70px;
+        }
     }
 }
