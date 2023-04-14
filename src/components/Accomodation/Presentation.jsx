@@ -1,9 +1,10 @@
 import React from 'react';
 import Tag from './Tag';
+import Host from './Host';
 
 function Presentation({ title, location, tags, rating, host }) {
     return (
-        <section className='presentation'>
+        <section className='presentation_container'>
             <div>
                 <h1>{title}</h1>
                 <h2>{location}</h2>
@@ -12,6 +13,9 @@ function Presentation({ title, location, tags, rating, host }) {
                         return <Tag key={index} tag={tag} />;
                     })}
                 </div>
+            </div>
+            <div className='host_rating_container'>
+                <Host name={host.name} imgHost={host.picture} />
             </div>
         </section>
     )

@@ -19,6 +19,7 @@ function Accomodation() {
             title={accomodation.title}
             location={accomodation.location}
             tags={accomodation.tags}
+            host={accomodation.host}
             />
             </section>
             
