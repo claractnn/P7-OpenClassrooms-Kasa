@@ -1,0 +1,23 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 10px 0;
+    .tag {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 8rem;
+        height: 1.5rem;
+        background-color: $primary-color;
+        border-radius: 0.5rem;
+        padding: 0 1rem ;  
+        margin-right: 3px;   
+        h3 {
+            font-size: 0.7rem;
+            font-weight: 400;
+            color: white;
+        }
+    }
+}
