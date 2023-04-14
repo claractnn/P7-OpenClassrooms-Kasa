@@ -41,13 +41,13 @@ class Carousel extends Component {
             {pictures.length > 1 && (
                 <div className='carousel_arrows'>
                     <div
-                        className='carousel_arrow carousel_arrow_left'
+                        className='carousel_arrow'
                         onClick={() => this.handleArrowClick('previous')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
                             <IoIosArrowBack className='arrow' />
                         </div>
                         <div
-                        className='carousel_arrow carousel_arrow_right'
+                        className='carousel_arrow'
                         onClick={() => this.handleArrowClick('next')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
                             <IoIosArrowForward className='arrow' />
