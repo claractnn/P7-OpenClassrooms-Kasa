@@ -4,6 +4,7 @@ import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
 import Carousel from '../components/Accomodation/Carousel';
 import accomodations from '../datas/accomodations.json';
+import Presentation from '../components/Accomodation/Presentation';
 
 function Accomodation() {
     const { id } = useParams();
@@ -14,6 +15,7 @@ function Accomodation() {
             <Header />
             <section className='accomodation_container'>
             <Carousel pictures={accomodation.pictures} title={accomodation.title}/>
+            <Presentation />
             </section>
             
             <Footer />
