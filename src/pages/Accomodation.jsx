@@ -16,10 +16,11 @@ function Accomodation() {
             <section className='accomodation_container'>
             <Carousel pictures={accomodation.pictures} title={accomodation.title}/>
             <Presentation 
-            title={accomodation.title}
-            location={accomodation.location}
-            tags={accomodation.tags}
-            host={accomodation.host}
+                title={accomodation.title}
+                location={accomodation.location}
+                tags={accomodation.tags}
+                host={accomodation.host}
+                rating={accomodation.rating}
             />
             </section>
             

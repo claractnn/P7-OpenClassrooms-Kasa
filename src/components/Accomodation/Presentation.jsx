@@ -17,6 +17,7 @@ function Presentation({ title, location, tags, rating, host }) {
             </div>
             <div className='host_rating_container'>
                 <Host name={host.name} imgHost={host.picture} />
+                <Rating rating={rating} />
             </div>
         </section>
     )
