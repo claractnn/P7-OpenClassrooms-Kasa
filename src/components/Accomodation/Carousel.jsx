@@ -37,24 +37,23 @@ class Carousel extends Component {
                     alt={`${title} ${pictureIndex +1}`}
                     />
                 }
-                <PictureCounter pictures={pictures} pictureIndex={pictureIndex} />
-                {pictures.length > 1 && (
-                    <div>
+            <PictureCounter pictures={pictures} pictureIndex={pictureIndex} />
+            {pictures.length > 1 && (
+                <div className='carousel_arrows'>
                     <div
                         className='carousel_arrow carousel_arrow_left'
                         onClick={() => this.handleArrowClick('previous')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
-                        <IoIosArrowBack className='arrow' />
+                            <IoIosArrowBack className='arrow' />
                         </div>
                         <div
                         className='carousel_arrow carousel_arrow_right'
                         onClick={() => this.handleArrowClick('next')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
-                        <IoIosArrowForward className='arrow' />
-
+                            <IoIosArrowForward className='arrow' />
                         </div>
-                    </div>
-                )}
+                </div>
+            )}
             </section>
         )
     }

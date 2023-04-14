@@ -1,0 +1,11 @@
+.accomodation_container {
+    @include desktop {
+        @include margin-desktop;
+    }
+    @include tablet {
+        @include margin-tablet;
+    }
+    @include mobile {
+        @include margin-mobile;
+    }
+}

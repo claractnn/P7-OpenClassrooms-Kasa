@@ -12,9 +12,10 @@ function Accomodation() {
     return !accomodation ? (<Navigate to="/error" />) : ( 
         <div>
             <Header />
-            <section className='accomodation'>
-            </section>
+            <section className='accomodation_container'>
             <Carousel pictures={accomodation.pictures} title={accomodation.title}/>
+            </section>
+            
             <Footer />
         </div>
     )

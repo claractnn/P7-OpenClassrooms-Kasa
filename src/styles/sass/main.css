@@ -213,6 +213,22 @@ a {
   }
 }
 
+@media screen and (min-width: 993px) and (max-width: 1600px) {
+  .accomodation_container {
+    margin: 40px 60px 40px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .accomodation_container {
+    margin: 20px 40px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .accomodation_container {
+    margin: 15px 25px 20px;
+  }
+}
+
 .gallery {
   margin: 40px 60px;
   display: flex;
@@ -395,4 +411,51 @@ a {
   padding: 30px 15px 10px;
   color: #FF6060;
   background-color: #F6F6F6;
+}
+
+.carousel {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+@media screen and (min-width: 993px) and (max-width: 1600px) {
+  .carousel {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .carousel {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel {
+    width: 100%;
+    height: 270px;
+  }
+}
+.carousel img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 50;
+}
+.carousel .picture_counter {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  bottom: 10px;
+  left: 50%;
+}
+.carousel_arrows {
+  display: flex;
+  position: absolute;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
