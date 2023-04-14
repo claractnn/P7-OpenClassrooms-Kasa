@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import PictureCounter from './PictureCounter';
 
-class Carrousel extends Component {
+class Carousel extends Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -30,7 +30,7 @@ class Carrousel extends Component {
         const { pictures, title } = this.props;
         const { pictureIndex } = this.state;
         return (
-            <section className='carrousel'>
+            <section className='Carousel'>
                 {
                     <img
                     src={pictures[pictureIndex]}
@@ -41,13 +41,13 @@ class Carrousel extends Component {
                 {pictures.length > 1 && (
                     <div>
                     <div
-                        className='carrousel_arrow carrousel_arrow_left'
+                        className='Carousel_arrow Carousel_arrow_left'
                         onClick={() => this.handleArrowClick('previous')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
                         <IoIosArrowBack className='arrow' />
                         </div>
                         <div
-                        className='carrousel_arrow carrousel_arrow_right'
+                        className='Carousel_arrow Carousel_arrow_right'
                         onClick={() => this.handleArrowClick('next')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
                         <IoIosArrowForward className='arrow' />
@@ -60,4 +60,4 @@ class Carrousel extends Component {
     }
 }
 
-export default Carrousel;
+export default Carousel;

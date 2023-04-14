@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigate, useParams } from 'react-router-dom';
 import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
-import Carrousel from '../components/Accomodation/Carrousel';
+import Carousel from '../components/Accomodation/Carousel';
 import accomodations from '../datas/accomodations.json';
 
 function Accomodation() {
@@ -13,9 +13,8 @@ function Accomodation() {
         <div>
             <Header />
             <section className='accomodation'>
-
             </section>
-            <Carrousel />
+            <Carousel pictures={accomodation.pictures} title={accomodation.title}/>
             <Footer />
         </div>
     )
