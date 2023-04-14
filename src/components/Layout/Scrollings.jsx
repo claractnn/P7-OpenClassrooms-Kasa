@@ -1,5 +1,5 @@
 import React from 'react';
-import Scrolling from '../About/Scrolling';
+import Scrolling from '../Layout/Scrolling';
 
 function Scrollings(props) {
     return (

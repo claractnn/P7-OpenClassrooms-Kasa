@@ -5,6 +5,7 @@ import Footer from '../components/Layout/Footer';
 import Carousel from '../components/Accomodation/Carousel';
 import accomodations from '../datas/accomodations.json';
 import Presentation from '../components/Accomodation/Presentation';
+import Scrolling from '../components/Layout/Scrolling';
 
 function Accomodation() {
     const { id } = useParams();
@@ -22,6 +23,7 @@ function Accomodation() {
                 host={accomodation.host}
                 rating={accomodation.rating}
             />
+            
             </section>
             
             <Footer />
