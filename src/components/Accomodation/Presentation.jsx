@@ -1,6 +1,7 @@
 import React from 'react';
 import Tag from './Tag';
 import Host from './Host';
+import Rating from './Rating';
 
 function Presentation({ title, location, tags, rating, host }) {
     return (
