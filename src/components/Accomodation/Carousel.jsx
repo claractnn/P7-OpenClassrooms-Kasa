@@ -30,7 +30,7 @@ class Carousel extends Component {
         const { pictures, title } = this.props;
         const { pictureIndex } = this.state;
         return (
-            <section className='Carousel'>
+            <section className='carousel'>
                 {
                     <img
                     src={pictures[pictureIndex]}
@@ -41,13 +41,13 @@ class Carousel extends Component {
                 {pictures.length > 1 && (
                     <div>
                     <div
-                        className='Carousel_arrow Carousel_arrow_left'
+                        className='carousel_arrow carousel_arrow_left'
                         onClick={() => this.handleArrowClick('previous')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
                         <IoIosArrowBack className='arrow' />
                         </div>
                         <div
-                        className='Carousel_arrow Carousel_arrow_right'
+                        className='carousel_arrow carousel_arrow_right'
                         onClick={() => this.handleArrowClick('next')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
                         <IoIosArrowForward className='arrow' />
