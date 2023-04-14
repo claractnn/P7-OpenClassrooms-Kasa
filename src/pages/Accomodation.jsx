@@ -15,7 +15,11 @@ function Accomodation() {
             <Header />
             <section className='accomodation_container'>
             <Carousel pictures={accomodation.pictures} title={accomodation.title}/>
-            <Presentation />
+            <Presentation 
+            title={accomodation.title}
+            location={accomodation.location}
+            tags={accomodation.tags}
+            />
             </section>
             
             <Footer />

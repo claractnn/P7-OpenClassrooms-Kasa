@@ -1,6 +1,7 @@
 import React from 'react';
+import Tag from './Tag';
 
-function Presentation({ title, location, tags, ratin, host }) {
+function Presentation({ title, location, tags, rating, host }) {
     return (
         <section className='presentation'>
             <div>
@@ -12,7 +13,6 @@ function Presentation({ title, location, tags, ratin, host }) {
                     })}
                 </div>
             </div>
-
         </section>
     )
 }
