@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Layout/Header';
 import HomeBanner from '../components/Home/HomeBanner';
-import Accomodations from '../datas/accomodations.json';
+import Accomodations from '../data/accomodations.json';
 import Gallery from '../components/Home/Gallery';
 import Footer from '../components/Layout/Footer';
 

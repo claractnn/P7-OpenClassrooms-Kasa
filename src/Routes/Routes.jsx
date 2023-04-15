@@ -5,6 +5,7 @@ import About from '../pages/About';
 import Error from '../pages/Error';
 import Accomodation from '../pages/Accomodation';
 
+// Set all application routes
 function AllRoutes() {
     return (
         <BrowserRouter>
@@ -20,3 +21,4 @@ function AllRoutes() {
 }
 
 export default AllRoutes;
+

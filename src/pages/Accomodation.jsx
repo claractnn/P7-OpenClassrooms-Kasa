@@ -3,7 +3,7 @@ import { Navigate, useParams } from 'react-router-dom';
 import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
 import Carousel from '../components/Accomodation/Carousel';
-import accomodations from '../datas/accomodations.json';
+import accomodations from '../data/accomodations.json';
 import Presentation from '../components/Accomodation/Presentation';
 import Collapse from '../components/Layout/Collapse';
 
