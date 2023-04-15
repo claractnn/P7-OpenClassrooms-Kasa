@@ -309,20 +309,20 @@ a {
   }
 }
 
-.accomodation_scrollings {
+.accomodation_collapses {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 @media screen and (min-width: 993px) and (max-width: 1600px) {
-  .accomodation_scrollings {
+  .accomodation_collapses {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: row;
   }
 }
-.accomodation_scrollings .scrolling_content {
+.accomodation_collapses .collapse_content {
   padding: 15px 15px 0;
 }
 
@@ -428,50 +428,50 @@ a {
   color: inherit;
 }
 
-.scrollings-container {
+.collapses-container {
   display: flex;
   justify-content: center;
 }
 @media screen and (min-width: 993px) and (max-width: 1600px) {
-  .scrollings-container {
+  .collapses-container {
     margin: 40px 60px 40px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  .scrollings-container {
+  .collapses-container {
     margin: 20px 40px 40px;
   }
 }
 @media screen and (max-width: 768px) {
-  .scrollings-container {
+  .collapses-container {
     margin: 15px 25px 20px;
   }
 }
 
-.scrollings {
+.collapses {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 85%;
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  .scrollings {
+  .collapses {
     width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  .scrollings {
+  .collapses {
     width: 100%;
   }
 }
 
-.scrolling {
+.collapse {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 100%;
 }
-.scrolling_button {
+.collapse_button {
   cursor: pointer;
   z-index: 1;
   display: flex;
@@ -482,24 +482,24 @@ a {
   padding-left: 1em;
   justify-content: space-between;
 }
-.scrolling_button h2 {
+.collapse_button h2 {
   display: flex;
   color: white;
   font-size: 1rem;
   font-weight: 400;
 }
-.scrolling_button .arrow-container {
+.collapse_button .arrow-container {
   margin-right: 20px;
 }
-.scrolling_button .arrow-container .arrow {
+.collapse_button .arrow-container .arrow {
   font-size: 1.7em;
   color: white;
   display: flex;
 }
-.scrolling_button .arrow-container-up {
+.collapse_button .arrow-container-up {
   transform: rotate(180deg);
 }
-.scrolling_content {
+.collapse_content {
   font-size: 0.8;
   font-weight: 400;
   line-height: 30px;

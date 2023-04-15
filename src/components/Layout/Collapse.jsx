@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 
-function Scrolling({ title, content } ) {
+function Collapse({ title, content } ) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <section className='scrolling'>
-            <div className='scrolling_button'
+        <section className='collapse'>
+            <div className='collapse_button'
                 onClick={() => {
                         isOpen ? setIsOpen(false) : setIsOpen(true)
                 }}
@@ -16,9 +16,9 @@ function Scrolling({ title, content } ) {
                     <IoIosArrowDown className="arrow" />
                 </div> 
             </div>
-            {isOpen && <div className='scrolling_content'>{content}</div>}
+            {isOpen && <div className='collapse_content'>{content}</div>}
         </section>
     )
 };
 
-export default Scrolling;
+export default Collapse;

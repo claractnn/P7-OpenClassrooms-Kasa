@@ -1,13 +1,13 @@
 import React from 'react';
-import Scrolling from '../Layout/Scrolling';
+import Collapse from './Collapse';
 
-function Scrollings(props) {
+function Collapses(props) {
     return (
-        <section className='scrollings-container'>
-            <div className='scrollings'>
+        <section className='collapses-container'>
+            <div className='collapses'>
                 {props.data.map((data, index) => {
                         return (
-                            <Scrolling 
+                            <Collapse 
                                 key={
                                     `${index}` +
                                     `${Object.values(data)}`.split(" ").join("").slice(10, 20)
@@ -23,4 +23,4 @@ function Scrollings(props) {
     );
 };
 
-export default Scrollings;
+export default Collapses;

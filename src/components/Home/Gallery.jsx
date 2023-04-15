@@ -1,4 +1,4 @@
-import Card from '../Home/Card';
+import Card from './Card';
 
 function Gallery(props) {
     return (

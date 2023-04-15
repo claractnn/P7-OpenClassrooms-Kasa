@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Layout/Header';
 import AboutBanner from '../components/About/AboutBanner';
-import Scrollings from '../components/Layout/Scrollings';
+import Collapses from '../components/Layout/Collapses';
 import Values from '../datas/values.json';
 import Footer from '../components/Layout/Footer';
 
@@ -10,7 +10,7 @@ function About() {
         <div>
             <Header />
             <AboutBanner />
-            <Scrollings data={Values} />
+            <Collapses data={Values} />
             <Footer />
         </div>
     )

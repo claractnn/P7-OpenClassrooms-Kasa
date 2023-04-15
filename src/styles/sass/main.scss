@@ -1,19 +1,18 @@
-@import '../utils/variables';
-@import '../utils/mixins';
-@import '../utils/base';
+@import './utils/base';
+@import './utils/mixins';
+@import './utils/variables';
 
 @import './layout/Header';
 @import './layout/Banner';
 @import './layout/Footer';
 @import './layout/Presentation';
 
-@import './pages/Home';
 @import './pages/Error';
 @import './pages/Accomodation';
 
 @import './components/Gallery';
 @import './components/Card';
-@import './components//Scrolling';
+@import './components/Collapse';
 @import './components/Carousel';
 @import './components/Tag';
 @import './components/Rating';

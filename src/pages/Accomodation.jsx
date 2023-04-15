@@ -5,7 +5,7 @@ import Footer from '../components/Layout/Footer';
 import Carousel from '../components/Accomodation/Carousel';
 import accomodations from '../datas/accomodations.json';
 import Presentation from '../components/Accomodation/Presentation';
-import Scrolling from '../components/Layout/Scrolling';
+import Collapse from '../components/Layout/Collapse';
 
 function Accomodation() {
     const { id } = useParams();
@@ -26,12 +26,12 @@ function Accomodation() {
                     host={accomodation.host}
                     rating={accomodation.rating}
                 />
-                <div className='accomodation_scrollings'>
-                    <Scrolling 
+                <div className='accomodation_collapses'>
+                    <Collapse 
                         title="Description"
                         content={<p>{accomodation.description}</p>} 
                     />
-                    <Scrolling 
+                    <Collapse 
                         title="Équipements"
                         content={
                             <ul>

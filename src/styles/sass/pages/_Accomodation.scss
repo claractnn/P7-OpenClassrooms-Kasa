@@ -10,7 +10,7 @@
     }
 }
 
-.accomodation_scrollings {
+.accomodation_collapses {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
         justify-content: space-between;
         flex-direction: row;
     }
-   .scrolling {
+   .collapse {
         &_content {
             padding: 15px 15px 0;
         }
