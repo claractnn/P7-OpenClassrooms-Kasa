@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Error from '../pages/Error';
-import Accomodation from '../pages/Accomodation';
+import Accommodation from '../pages/Accommodation';
 
 // Set all application routes
 function AllRoutes() {
@@ -14,7 +14,7 @@ function AllRoutes() {
                 <Route exact path="/home" element={<Home />} />
                 <Route exact path="/about" element={<About />} />
                 <Route exact path="*" element={<Error />} />
-                <Route exact path="/accomodation/:id" element={<Accomodation />} />
+                <Route exact path="/accommodation/:id" element={<Accommodation />} />
             </Routes>
         </BrowserRouter>
     )

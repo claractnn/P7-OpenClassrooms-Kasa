@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Layout/Header';
 import HomeBanner from '../components/Home/HomeBanner';
-import Accomodations from '../data/accomodations.json';
+import Accommodations from '../data/accommodations.json';
 import Gallery from '../components/Home/Gallery';
 import Footer from '../components/Layout/Footer';
 
@@ -12,7 +12,7 @@ function Home() {
         <div>
             <Header />
             <HomeBanner />
-            <Gallery accomodations={Accomodations}/>
+            <Gallery accommodations={Accommodations}/>
             <Footer />
         </div>
     )

@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Card(props) {
-    const { id , title, cover } = props.accomodation 
+    const { id , title, cover } = props.accommodation 
     return ( 
-        <Link className='accomodation' to={`/accomodation/${id}`}>
+        <Link className='accommodation' to={`/accommodation/${id}`}>
             <span className='background'></span>
-            <img className='accomodation_img' src={`${cover}`} alt={`${title}`}/>
-            <h2 className='accomodation_title'>{title}</h2>
+            <img className='accommodation_img' src={`${cover}`} alt={`${title}`}/>
+            <h2 className='accommodation_title'>{title}</h2>
         </Link>
     )
 }

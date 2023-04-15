@@ -1,4 +1,4 @@
-.accomodation_container {
+.accommodation_container {
     @include desktop {
         @include margin-desktop;
     }
@@ -10,7 +10,7 @@
     }
 }
 
-.accomodation_collapses {
+.accommodation_collapses {
     margin-top: 20px;
     display: flex;
     flex-direction: column;

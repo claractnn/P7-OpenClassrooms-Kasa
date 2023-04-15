@@ -3,8 +3,8 @@ import Card from './Card';
 function Gallery(props) {
     return (
         <section className='gallery'>
-            {props.accomodations.map((accomodation) => (
-                <Card key={accomodation.id} accomodation={accomodation}/>
+            {props.accommodations.map((accommodation) => (
+                <Card key={accommodation.id} accommodation={accommodation}/>
             ))}
         </section>
     )
