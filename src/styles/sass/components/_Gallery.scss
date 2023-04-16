@@ -1,19 +1,18 @@
 .gallery {
-    margin: 40px 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: $secondary-color;
     padding: 45px 45px 0;
     border-radius: 15px;
+    margin-top: 1.5em;
     @include tablet {
-        @include margin-tablet;
         background-color: inherit;
         padding: 0;
         gap: 10px;
+        margin-top: 1.5em;
     }
     @include mobile {
-        @include margin-mobile;    
         margin-top: 20px;
         background-color: inherit;
         padding: 0;

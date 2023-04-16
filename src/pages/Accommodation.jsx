@@ -12,9 +12,10 @@ function Accommodation() {
     const accommodation = accommodations.find((item) => item.id === id)
 
     return !accommodation ? (<Navigate to="/error" />) : ( 
-        <div>
+        <section>
+        <div className='accommodation_page'>
             <Header />
-            <section className='accommodation_container'>
+            <div className='accommodation_container'>
                 <Carousel 
                     pictures={accommodation.pictures} 
                     title={accommodation.title}
@@ -42,9 +43,10 @@ function Accommodation() {
                         } 
                     />
                 </div>
-                </section>
-            <Footer />
+            </div>
         </div>
+        <Footer />
+        </section>
     )
 }
 

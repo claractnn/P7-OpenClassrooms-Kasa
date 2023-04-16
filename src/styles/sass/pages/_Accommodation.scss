@@ -1,4 +1,4 @@
-.accommodation_container {
+.accommodation_page {
     @include desktop {
         @include margin-desktop;
     }
@@ -8,6 +8,10 @@
     @include mobile {
         @include margin-mobile;
     }
+}
+
+.accommodation_container {
+    margin-top: 1em;
 }
 
 .accommodation_collapses {

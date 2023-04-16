@@ -4,15 +4,7 @@
 .collapses-container {
     display: flex;
     justify-content: center;
-        @include desktop {
-            @include margin-desktop;
-        }
-        @include tablet {
-            @include margin-tablet;
-        }
-        @include mobile {
-            @include margin-mobile;
-        }
+    margin-top: 1em;
 }
 
 .collapses {

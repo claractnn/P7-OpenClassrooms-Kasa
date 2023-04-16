@@ -1,57 +1,69 @@
-@import '../utils/variables';
-@import '../utils/mixins';
-
 .header {   
     display: flex;
-    align-items: center;
-    justify-content: space-between; 
     font-weight: 400;
     color: $primary-color;
-    &_nav ul {
-        display: flex;
-        flex-direction: row;
-        padding-inline-start: 0;
-    }
-    &_nav_link_active {
-        text-decoration: underline ;
-    }
-}
-.header {
-    @include desktop{
-        @include margin-desktop;
-        &_nav ul {
-            gap: 4rem;
-        }
-        &_logo_img {
-            width: 170px;
-        }
-        &_nav_link {
-            font-size: 20px;
-        }
-    }
-    @include tablet{
-        @include margin-tablet;
-        &_nav ul {
-            gap: 2rem;
-        }  
-        &_logo_img {
-            width: 130px;
-        }
-        &_nav_link {
-            font-size: 16px;
-        }    
-    }
-    @include mobile {
-        @include margin-mobile;
-        text-transform: uppercase;
-        &_nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &_nav {
+        ul {
+            display: flex;
+            flex-direction: row;
+            padding-inline-start: 0;
             gap: 0.7rem;
-        }  
-        &_logo_img {
+        }
+        
+        &_link {
+            font-size: 0.7em;
+            text-decoration: none;
+            text-transform: uppercase;
+            &_active {
+                text-decoration: underline;
+            }
+        }
+    }
+    
+    &_logo {
+        img {
             width: 140px;
         }
-        &_nav_link {
-            font-size: 13px;
-        }    
+    }
+    
+    @include tablet{        
+        &_nav {
+            ul {
+                gap: 2rem;
+            }
+            
+            &_link {
+                font-size: 1.1em;
+                text-transform: capitalize;
+            }
+        }
+        
+        &_logo {
+            img {
+                width: 130px;
+            }
+        }
+    }
+    
+    @include desktop{        
+        &_nav {
+            ul {
+                gap: 4rem;
+            }
+            
+            &_link {
+                font-size: 1.5em;
+                text-transform: capitalize;
+            }
+        }
+        
+        &_logo {
+            img {
+                width: 170px;
+            }
+        }
     }
 }

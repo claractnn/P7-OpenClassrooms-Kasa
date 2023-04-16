@@ -5,12 +5,20 @@
     h3 {
         display: flex;
         justify-content: flex-end;
-        padding-right: 0.7rem;
+        padding-right: 0.3rem;
         color: $primary-color;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 0.7rem;
         text-align: right;
-        width: 9rem;
+        width: 5rem;
+        @include tablet {
+            width: 8rem;
+            font-size: 0.9rem;
+        }
+        @include desktop {
+            font-size: 1.2rem;
+            width: 9rem;
+        }
     }
     img {
         border-radius: 50%;

@@ -7,12 +7,14 @@ import Footer from '../components/Layout/Footer';
 
 function About() {
     return(
-        <div>
-            <Header />
-            <AboutBanner />
-            <Collapses data={Values} />
+        <section>
+            <div className='about'>
+                <Header />
+                <AboutBanner />
+                <Collapses data={Values} />
+            </div>
             <Footer />
-        </div>
+        </section>
     )
 }
 
