@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 
-function Collapse({ title, content } ) {
+function Collapse({ title, content }) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -22,3 +22,4 @@ function Collapse({ title, content } ) {
 };
 
 export default Collapse;
+

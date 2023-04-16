@@ -542,10 +542,15 @@ a {
 }
 .carousel .picture_counter {
   position: absolute;
-  color: white;
+  color: transparent;
   z-index: 999;
   bottom: 15px;
   left: 50%;
+}
+@media screen and (min-width: 993px) and (max-width: 1600px) {
+  .carousel .picture_counter {
+    color: white;
+  }
 }
 .carousel_arrows {
   display: flex;
@@ -557,12 +562,22 @@ a {
   text-align: center;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .carousel_arrows {
+    top: 44%;
+  }
+}
 .carousel_arrow {
   cursor: pointer;
   color: white;
   font-size: 70px;
   height: 70px !important;
-  opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+  .carousel_arrow {
+    font-size: 30px;
+    height: 30px !important;
+  }
 }
 
 .tags {

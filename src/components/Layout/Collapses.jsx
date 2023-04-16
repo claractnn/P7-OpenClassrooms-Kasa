@@ -24,3 +24,4 @@ function Collapses(props) {
 };
 
 export default Collapses;
+

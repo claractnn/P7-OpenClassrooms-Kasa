@@ -21,10 +21,13 @@
     }
     .picture_counter {
         position: absolute;
-        color: white;
+        color: transparent;
         z-index: 999;
         bottom: 15px;
         left: 50%;
+        @include desktop {
+            color: white;
+        }
     }
     &_arrows {
         display: flex;
@@ -35,12 +38,18 @@
         justify-content: space-between;
         text-align: center;
         width: 100%;
+        @include mobile {
+            top: 44%;
+        }
     }
     &_arrow {
         cursor: pointer;
         color: white;
         font-size: 70px;
         height: 70px !important;
-        opacity: 0.8;
+        @include mobile {
+            font-size: 30px;
+            height: 30px !important;
+        }
     }
 }

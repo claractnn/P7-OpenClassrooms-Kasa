@@ -19,3 +19,4 @@ function Rating({ rating }) {
 }
 
 export default Rating;
+

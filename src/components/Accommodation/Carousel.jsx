@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md';
 import PictureCounter from './PictureCounter';
 
 class Carousel extends Component {
@@ -44,13 +44,13 @@ class Carousel extends Component {
                         className='carousel_arrow'
                         onClick={() => this.handleArrowClick('previous')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
-                            <IoIosArrowBack className='arrow' />
+                            <MdArrowBackIosNew className='arrow' />
                         </div>
                         <div
                         className='carousel_arrow'
                         onClick={() => this.handleArrowClick('next')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
                         >
-                            <IoIosArrowForward className='arrow' />
+                            <MdArrowForwardIos className='arrow' />
                         </div>
                 </div>
             )}
@@ -60,3 +60,4 @@ class Carousel extends Component {
 }
 
 export default Carousel;
+
