@@ -8,6 +8,7 @@ function Collapses(props) {
                 {props.data.map((data, index) => {
                         return (
                             <Collapse 
+                                // Guarantee a unique key for each item in the list
                                 key={
                                     `${index}` +
                                     `${Object.values(data)}`.split(" ").join("").slice(10, 20)

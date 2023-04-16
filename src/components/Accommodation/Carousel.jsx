@@ -14,7 +14,7 @@ class Carousel extends Component {
         const { pictures } = this.props;
         const { pictureIndex } = this.state;
 
-        //Calculer le nouvel index de l'image en fonction de la direction
+        //Calculate the new index of the image according to the direction
         let newPictureIndex;
         if (direction === 'previous') {
             newPictureIndex = pictureIndex === 0 ? pictures.length - 1 : pictureIndex - 1;
@@ -22,7 +22,7 @@ class Carousel extends Component {
             newPictureIndex = pictureIndex === pictures.length - 1 ? 0 : pictureIndex + 1;
         }
 
-        // Met à jour l'état du composant avec le nouvel index de l'image
+        // Updates the state of the component with the new image index
         this.setState({ pictureIndex: newPictureIndex });
     };
 
@@ -42,13 +42,13 @@ class Carousel extends Component {
                 <div className='carousel_arrows'>
                     <div
                         className='carousel_arrow'
-                        onClick={() => this.handleArrowClick('previous')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
+                        onClick={() => this.handleArrowClick('previous')} // Use handleArrowClick method to handle user click
                         >
                             <MdArrowBackIosNew className='arrow' />
                         </div>
                         <div
                         className='carousel_arrow'
-                        onClick={() => this.handleArrowClick('next')} // Utilise la méthode handleArrowClick pour gérer le clic de l'utilisateur
+                        onClick={() => this.handleArrowClick('next')} 
                         >
                             <MdArrowForwardIos className='arrow' />
                         </div>

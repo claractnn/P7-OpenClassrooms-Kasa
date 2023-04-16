@@ -5,8 +5,6 @@ import Accommodations from '../data/accommodations.json';
 import Gallery from '../components/Home/Gallery';
 import Footer from '../components/Layout/Footer';
 
-//importer toutes les layout de la page home (footer, banner, allcards)
-
 function Home() {
     return(
         <div>
