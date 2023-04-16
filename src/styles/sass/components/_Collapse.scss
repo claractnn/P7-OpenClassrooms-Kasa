@@ -1,69 +1,60 @@
-@import '../utils/variables';
-@import '../utils/base';
-
-.collapses-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-}
-
 .collapses {
+    margin-top: 1.7em;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 85%;
-    @include tablet {
-        width: 100%;
-    }
-    @include mobile {
-        width: 100%;
-    }
-}
-
-.collapse {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     width: 100%;
-    &_button {
-        cursor: pointer;
-        z-index: 1;
+    .collapse {
         display: flex;
-        align-items: center;
-        background-color: $primary-color;
-        border-radius: 8px;
-        height: 35px;
-        padding-left: 1em;
-        justify-content: space-between;
-        h2 {
+        flex-direction: column;
+        width: 100%;
+        &_button {
+            cursor: pointer;
+            z-index: 1;
             display: flex;
-            color: white;
-            font-size: 1rem;
-            font-weight: 400;
-        }
-        .arrow-container {
-            margin-right: 20px;
-            .arrow {
-                font-size: 1.7em;
-                color: white;
+            align-items: center;
+            justify-content: space-between;
+            height: 2.2rem;
+            padding: 0 1.2em;
+            background-color: $primary-color;
+            border-radius: 8px;
+            h2 {
                 display: flex;
+                align-items: center;
+                color: white;
+                font-size: 1.1rem;
+                font-weight: 400;
+                margin: 0;
             }
-        &-up {
-            transform: rotate(180deg);
+            .arrow-container {
+                margin-left: auto;
+                .arrow {
+                    display: flex;
+                    font-size: 1.7em;
+                    color: white;
+                }
+                &-up {
+                    transform: rotate(180deg);
+                }
+            }
         }
+        &_content {
+            font-size: 1.1rem;
+            font-weight: 400;
+            line-height: 30px;
+            margin-top: -0.7em;
+            padding: 1.5em 1em 0.5em;
+            color: $primary-color;
+            background-color: $secondary-color;
+            border-radius: 8px;
         }
-        
     }
-    &_content {
-        font-size: 0.8;
-        font-weight: 400;
-        line-height: 30px;
-        margin-top: -0.5em;
-        border-radius: 8px;
-        z-index: 0;
-        padding: 30px 15px 10px;
-        color: $primary-color;
-        background-color: $secondary-color;
+    @include tablet {
+        width: 85%;
+        margin: 2em auto;
+    }
+    @include desktop {
+        width: 85%;
+        margin: 1.5em auto;
     }
 }
-

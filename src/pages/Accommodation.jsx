@@ -27,7 +27,7 @@ function Accommodation() {
                     host={accommodation.host}
                     rating={accommodation.rating}
                 />
-                <div className='accommodation_collapses'>
+                <div className='accommodation_collapses collapses'>
                     <Collapse 
                         title="Description"
                         content={<p>{accommodation.description}</p>} 

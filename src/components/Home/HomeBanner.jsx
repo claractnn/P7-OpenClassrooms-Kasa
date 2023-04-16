@@ -4,9 +4,9 @@ import Banner from '../Layout/Banner';
 
 function HomeBanner() {
     return (
-        <Banner className="banner_img_home"
+        <Banner
             title='Chez vous, partout et ailleurs'
-            src={imgBannerHome}
+            src={imgBannerHome} 
         />
     )
 }
