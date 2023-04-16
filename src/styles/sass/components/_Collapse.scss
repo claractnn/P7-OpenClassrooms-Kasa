@@ -1,3 +1,15 @@
+@keyframes slide {
+    0% {
+        overflow: hidden;
+        max-height: 0%;
+        opacity: 0;
+    }
+    100% {
+        max-height: 100%;
+        opacity: 1;
+    }
+}
+
 .collapses {
     margin-top: 1.7em;
     display: flex;
@@ -47,6 +59,7 @@
             color: $primary-color;
             background-color: $secondary-color;
             border-radius: 8px;
+            animation: slide 0.7s ease-in-out;
         }
     }
     @include tablet {

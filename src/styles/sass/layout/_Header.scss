@@ -16,7 +16,11 @@
         &_link {
             font-size: 0.7em;
             text-decoration: none;
-            text-transform: uppercase;
+            text-transform: uppercase;    
+            transition: transform 150ms ease-in-out;
+            &:hover {
+                transform: scale(1.05);
+            }
             &_active {
                 text-decoration: underline;
             }
