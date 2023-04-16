@@ -4,7 +4,7 @@ import Banner from '../Layout/Banner';
 
 function AboutBanner() {
     return (
-        <Banner 
+        <Banner className="banner_img_about"
             src={imgBannerAbout}
         />
     )
