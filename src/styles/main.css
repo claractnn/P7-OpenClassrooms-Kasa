@@ -164,7 +164,6 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-    gap: 30px;
     margin-bottom: 1em;
   }
 }
@@ -688,11 +687,16 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .rating_container {
     padding-bottom: 0.5em;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1600px) {
+  .rating_container {
+    gap: 9px;
   }
 }
 .rating_container .star {
@@ -705,7 +709,7 @@ a {
 }
 @media screen and (min-width: 993px) and (max-width: 1600px) {
   .rating_container .star {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 .rating_container .star-empty {
