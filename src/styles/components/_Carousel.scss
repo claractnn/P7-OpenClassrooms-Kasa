@@ -4,10 +4,10 @@
     overflow: hidden;
     width: 100%;
     @include desktop {
-        height: 300px;
+        height: 350px;
     }
     @include tablet {
-        height: 200px;
+        height: 250px;
     }
     @include mobile {
         height: 270px;
