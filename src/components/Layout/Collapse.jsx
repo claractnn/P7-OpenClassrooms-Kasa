@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { IoIosArrowDown } from 'react-icons/io';
+import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 function Collapse({ title, content }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ function Collapse({ title, content }) {
           <div className='collapse_button' onClick={toggleCollapse}>
             <h2>{title}</h2>
             <div className={`arrow-container ${isOpen ? "arrow-container-up" : ""}`}>
-              <IoIosArrowDown className="arrow" />
+              <FontAwesomeIcon icon={faAngleDown} className='arrow' />
             </div>
           </div>
           {isOpen && <div className='collapse_content'>{content}</div>}
