@@ -5,7 +5,8 @@
 }
 
 body {
-  margin: 0;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 ul {
@@ -59,7 +60,7 @@ a {
     width: 130px;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .header_nav ul {
     gap: 4rem;
   }
@@ -93,7 +94,7 @@ a {
     text-align: center;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .banner_title {
     text-align: center;
     font-size: 45px;
@@ -109,7 +110,7 @@ a {
   border-radius: 15px;
   filter: brightness(65%);
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .banner_img {
     height: 11em;
   }
@@ -118,7 +119,7 @@ a {
 .img_banner_about img {
   height: 18em;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .img_banner_about img {
     height: 12em;
   }
@@ -140,7 +141,7 @@ a {
   font-size: 10px;
   color: white;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .footer {
     flex-wrap: wrap;
     gap: 15px;
@@ -158,7 +159,7 @@ a {
   flex-direction: column;
   justify-content: center;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .presentation_container {
     margin-top: 20px;
     flex-direction: row;
@@ -189,7 +190,7 @@ a {
     margin: 0 0 10px;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .presentation_container h1 {
     font-size: 2rem;
     margin: 0 0 10px;
@@ -207,7 +208,7 @@ a {
     font-size: 0.9rem;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .presentation_container h2 {
     font-size: 1.1rem;
   }
@@ -225,7 +226,7 @@ a {
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .host_rating_container {
     flex-direction: column-reverse;
     gap: 10px;
@@ -235,7 +236,7 @@ a {
   }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .error_container {
     margin: 40px 60px 40px;
   }
@@ -305,7 +306,7 @@ a {
   }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .accommodation_page {
     margin: 40px 60px 40px;
   }
@@ -338,7 +339,7 @@ a {
     gap: 10px;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .accommodation_collapses {
     display: flex;
     align-items: flex-start;
@@ -351,7 +352,7 @@ a {
   padding: 15px 15px 0;
 }
 
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .home {
     margin: 40px 60px 40px;
   }
@@ -370,13 +371,13 @@ a {
 .banner_img_home {
   height: 8em;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .banner_img_home {
     height: 10em;
   }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .about {
     margin: 40px 60px 40px;
   }
@@ -402,7 +403,7 @@ a {
     margin: 2em auto;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .about_collapses {
     width: 85%;
     margin: 1.5em auto;
@@ -428,7 +429,7 @@ a {
     gap: 10px;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .gallery {
     flex-wrap: wrap;
     flex-direction: inherit;
@@ -460,7 +461,7 @@ a {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .accommodation {
     width: 31%;
     height: 290px;
@@ -491,7 +492,7 @@ a {
   color: white;
   z-index: 2;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .accommodation_title {
     font-size: 15px;
   }
@@ -517,7 +518,7 @@ a {
     margin-top: 0;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .collapses {
     margin-top: 0;
   }
@@ -577,19 +578,19 @@ a {
   overflow: hidden;
   width: 100%;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .carousel {
-    height: 350px;
+    height: 415px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .carousel {
-    height: 250px;
+    height: 300px;
   }
 }
 @media screen and (max-width: 768px) {
   .carousel {
-    height: 270px;
+    height: 255px;
   }
 }
 .carousel img {
@@ -607,7 +608,7 @@ a {
   bottom: 15px;
   left: 50%;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .carousel .picture_counter {
     color: white;
   }
@@ -621,6 +622,7 @@ a {
   justify-content: space-between;
   text-align: center;
   width: 100%;
+  padding: 0 10px 0;
 }
 @media screen and (max-width: 768px) {
   .carousel_arrows {
@@ -630,8 +632,8 @@ a {
 .carousel_arrow {
   cursor: pointer;
   color: white;
-  font-size: 70px;
-  height: 70px !important;
+  font-size: 80px;
+  height: 80px !important;
   transition: transform 200ms ease-in-out;
 }
 .carousel_arrow:hover {
@@ -651,7 +653,7 @@ a {
   gap: 6px;
   margin: 10px 0;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .tags {
     margin-top: 20px;
   }
@@ -667,7 +669,7 @@ a {
   padding: 0 1rem;
   margin-right: 3px;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .tags .tag {
     height: 1.7rem;
   }
@@ -677,7 +679,7 @@ a {
   font-weight: 400;
   color: white;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .tags .tag h3 {
     font-size: 0.9rem;
   }
@@ -694,7 +696,7 @@ a {
     padding-bottom: 0.5em;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .rating_container {
     gap: 9px;
   }
@@ -707,7 +709,7 @@ a {
     font-size: 1.3rem;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .rating_container .star {
     font-size: 1.8rem;
   }
@@ -739,7 +741,7 @@ a {
     font-size: 0.9rem;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .host_container h3 {
     font-size: 1.2rem;
   }
@@ -748,7 +750,7 @@ a {
   border-radius: 50%;
   height: 50px;
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 1900px) {
   .host_container img {
     height: 70px;
   }

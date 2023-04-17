@@ -4,13 +4,13 @@
     overflow: hidden;
     width: 100%;
     @include desktop {
-        height: 350px;
+        height: 415px;
     }
     @include tablet {
-        height: 250px;
+        height: 300px;
     }
     @include mobile {
-        height: 270px;
+        height: 255px;
     }
     img {
         position: absolute;
@@ -38,6 +38,7 @@
         justify-content: space-between;
         text-align: center;
         width: 100%;
+        padding: 0 10px 0;
         @include mobile {
             top: 44%;
         }
@@ -45,8 +46,8 @@
     &_arrow {
         cursor: pointer;
         color: white;
-        font-size: 70px;
-        height: 70px !important;
+        font-size: 80px;
+        height: 80px !important;
         transition: transform 200ms ease-in-out;
         &:hover {
             transform: scale(1.06);

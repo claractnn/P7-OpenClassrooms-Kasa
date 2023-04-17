@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { MdArrowBackIosNew, MdArrowForwardIos } from 'react-icons/md';
+import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 import PictureCounter from './PictureCounter';
 
 class Carousel extends Component {
@@ -44,13 +46,13 @@ class Carousel extends Component {
                         className='carousel_arrow'
                         onClick={() => this.handleArrowClick('previous')} // Use handleArrowClick method to handle user click
                         >
-                            <MdArrowBackIosNew className='arrow' />
+                            <FontAwesomeIcon icon={faAngleLeft} className='arrow' />
                         </div>
                         <div
                         className='carousel_arrow'
                         onClick={() => this.handleArrowClick('next')} 
                         >
-                            <MdArrowForwardIos className='arrow' />
+                            <FontAwesomeIcon icon={faAngleRight} className='arrow' />
                         </div>
                 </div>
             )}
