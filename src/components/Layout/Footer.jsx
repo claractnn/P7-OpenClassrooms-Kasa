@@ -1,5 +1,5 @@
 import React from 'react';
-import logoFooter from '../../styles/images/logo_footer_kasa.png';
+import logoFooter from '../../images/logo_footer_kasa.png';
 
 function Footer() {
     return (

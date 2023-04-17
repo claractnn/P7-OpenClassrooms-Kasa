@@ -10,3 +10,9 @@
     }
 }
 
+.banner_img_home {
+    height: 8em;
+    @include desktop {
+    height: 10em;
+    }
+}

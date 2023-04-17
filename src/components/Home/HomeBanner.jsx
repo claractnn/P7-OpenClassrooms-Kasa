@@ -1,5 +1,5 @@
 import React from 'react';
-import imgBannerHome from '../../styles/images/img_home_banner.webp';
+import imgBannerHome from '../../images/img_home_banner.webp';
 import Banner from '../Layout/Banner';
 
 function HomeBanner() {

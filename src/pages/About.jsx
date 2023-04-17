@@ -11,7 +11,9 @@ function About() {
             <div className='about'>
                 <Header />
                 <AboutBanner />
-                <Collapses data={Values} />
+                <div className='about_collapses'>
+                    <Collapses data={Values} />
+                </div>
             </div>
             <Footer />
         </section>

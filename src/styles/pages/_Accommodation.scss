@@ -17,12 +17,19 @@
 .accommodation_collapses {
     margin-top: 20px;
     display: flex;
+    display: flex;
     flex-direction: column;
-    gap: 15px;
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
     @include desktop {
+        display: flex;
         align-items: flex-start;
         justify-content: space-between;
         flex-direction: row;
+        gap: 15px;
     }
    .collapse {
         &_content {

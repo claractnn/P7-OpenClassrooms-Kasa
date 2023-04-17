@@ -10,24 +10,37 @@
       font-weight: 400;
       position: absolute;
       z-index: 1;
-      padding: 2em;
+      width: 70%;    
+      @include tablet {
+        padding: 1em;
+        text-align: center;
+      }
+      @include desktop {
+        text-align: center;
+        font-size: 45px;
+      }
     }
     &_img {
       position: relative;
       overflow: hidden;
       object-fit: cover;
       width: 100%;
+      height: 8em;
       border-radius: 15px;
       filter: brightness(65%);
-      height: 12em;
-    } 
-    @include desktop {
-    display: flex;
-      justify-content: center;
-      margin-top: 1.8em;
-      &_title {
-        font-size: 45px;
+      @include desktop {
+        height: 11em;
       }
+    } 
+  }
+
+  .img_banner_about {
+    img {
+    height: 18em;
+    @include desktop {
+    height: 12em;
     }
   }
+}
+
   
