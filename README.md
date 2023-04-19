@@ -36,5 +36,5 @@ React Router :
 
 ## Installation du projet
 - Télécharger NodeJs si besoin
-- Installer Node avec 'npm'
+- Installer les modules avec 'npm install'
 - Lancer le serveur avec 'npm start'
